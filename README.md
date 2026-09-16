@@ -2,7 +2,7 @@
 
 ThreadPilot is a focused coordination-intelligence layer for architecture, interior design and construction projects. It ingests unstructured project updates and turns them into evidence-backed signals, owners, dependencies, approvals, actions and audit history.
 
-## Why this is an AS-01 fit
+## Why this is fit
 
 ArchScale AS-01 asks for a system that connects stakeholders, responsibilities, activities, changes, dependencies, approvals and actions. ThreadPilot deliberately solves that one painful intervention rather than becoming a generic construction ERP.
 
