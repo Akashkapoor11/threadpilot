@@ -95,42 +95,6 @@ FastAPI OpenAPI docs: `http://localhost:8080/docs`.
 3. Capture a novel message and verify the signal/action persists.
 4. Use that public URL in the ArchScale submission form.
 
-**Deployed URL:** add the final public URL here after deployment.
-
-## Judge walkthrough
-
-**0:00 - Frame the problem**
-
-“Architecture projects already contain the information. The coordination black hole is the missing relationship between a change and the people, dependencies, approvals and actions it creates.”
-
-**0:35 - Evidence**
-
-Open a critical signal and show its linked source messages and the “Why ThreadPilot surfaced this” explanation.
-
-**1:15 - Consequence**
-
-Open Impact Graph and trace change -> impact -> dependency -> approval -> action.
-
-**1:50 - Execution**
-
-Confirm a P0 action and route a coordination alert.
-
-**2:15 - API-first proof**
-
-Capture an unseen project note. Preview it. Point out the **LLM API - PRIMARY** label when configured. If the provider is unavailable, demonstrate the transparent **LOCAL - FALLBACK** state.
-
-**2:55 - Persistence**
-
-Save the message, show the new signal/action, then open Project Memory and the audit trail.
-
-**3:35 - Close**
-
-“ThreadPilot does not replace the coordinator. It turns fragmented evidence into a reviewable consequence chain so the coordinator can act before the project pays for the handoff.”
-
-## Responsible technical positioning
-
-ThreadPilot is not presented as a fully autonomous construction agent. Detection, recommendation and consequential state change are separate steps. The system preserves evidence, requires human confirmation and records decisions.
-
 ## Submission assets
 
 - `DOCUMENTATION.md` - explicit problem, decisions, AI assistance and next steps
