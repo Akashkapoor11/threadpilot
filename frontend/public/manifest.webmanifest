@@ -1,0 +1,10 @@
+{
+  "name":"ThreadPilot — Project Impact Intelligence",
+  "short_name":"ThreadPilot",
+  "start_url":"/",
+  "display":"standalone",
+  "background_color":"#07101c",
+  "theme_color":"#08111f",
+  "description":"Evidence-backed coordination intelligence for architecture, interior design and construction projects.",
+  "icons":[{"src":"/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

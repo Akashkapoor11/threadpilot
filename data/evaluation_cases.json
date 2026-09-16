@@ -1,0 +1,7 @@
+[
+  {"name":"revision conflict","text":"A-305 Rev 05 supersedes Rev 04. Please broadcast the new issue.","expected":["CHANGE","ACTION"]},
+  {"name":"blocked site","text":"We are holding the workface to avoid rework until clarification.","expected":["BLOCKER"]},
+  {"name":"approval","text":"Please send the visual for final sign-off.","expected":["APPROVAL","ACTION"]},
+  {"name":"supply","text":"Shade 312 is unavailable; Shade 318 is an alternative pending approval.","expected":["SUPPLY","APPROVAL"]},
+  {"name":"impact","text":"The ceiling conflict affects the MEP section before issue.","expected":["IMPACT","ACTION"]}
+]

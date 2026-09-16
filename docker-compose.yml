@@ -1,0 +1,32 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: threadpilot
+      POSTGRES_USER: threadpilot
+      POSTGRES_PASSWORD: threadpilot
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL","pg_isready -U threadpilot -d threadpilot"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+  app:
+    build: .
+    environment:
+      DATABASE_URL: postgresql+psycopg://threadpilot:threadpilot@db:5432/threadpilot
+      CORS_ORIGINS: http://localhost:8080
+      ENVIRONMENT: production
+      SEED_DEMO: "true"
+      PORT: "8080"
+      LLM_API_KEY: ${LLM_API_KEY:-}
+      LLM_BASE_URL: ${LLM_BASE_URL:-https://api.openai.com/v1}
+      LLM_MODEL: ${LLM_MODEL:-gpt-4.1-mini}
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+volumes:
+  pgdata:
