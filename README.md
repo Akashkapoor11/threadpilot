@@ -51,6 +51,9 @@ The UI explicitly labels whether the result came from the **LLM API** or the **l
 - **Impact Graph** - live relationship canvas generated from current coordination signals.
 - **Capture Update** - API-first intelligence preview with novel example shortcuts.
 
+  ## Deployment link
+  https://threadpilot.onrender.com/
+
 ## Professional stack
 
 - **Frontend:** React 19.3, TypeScript, Vite 8.2, custom responsive design system, Lucide icons, PWA manifest
