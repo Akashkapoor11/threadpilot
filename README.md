@@ -1,7 +1,5 @@
 # ThreadPilot - AS-01 Coordination Intelligence
 
-> **From “something changed” to “who is affected, what depends on it, what approval is required, what is blocked, and what happens next.”**
-
 ThreadPilot is a focused coordination-intelligence layer for architecture, interior design and construction projects. It ingests unstructured project updates and turns them into evidence-backed signals, owners, dependencies, approvals, actions and audit history.
 
 ## Why this is an AS-01 fit
